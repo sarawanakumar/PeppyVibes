@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EEF05F42C943A0100970ED9 /* Peppy_VibesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF05F32C943A0100970ED9 /* Peppy_VibesApp.swift */; };
+		8EEF05F62C943A0100970ED9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF05F52C943A0100970ED9 /* ContentView.swift */; };
+		8EEF05F82C943A0500970ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF05F72C943A0500970ED9 /* Assets.xcassets */; };
+		8EEF05FB2C943A0500970ED9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF05FA2C943A0500970ED9 /* Preview Assets.xcassets */; };
+		8EEF05FD2C943A0500970ED9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF05FC2C943A0500970ED9 /* Persistence.swift */; };
+		8EEF06002C943A0500970ED9 /* Peppy_Vibes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF05FE2C943A0500970ED9 /* Peppy_Vibes.xcdatamodeld */; };
+		8EEF060A2C943A0500970ED9 /* Peppy_VibesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF06092C943A0500970ED9 /* Peppy_VibesTests.swift */; };
+		8EEF06142C943A0500970ED9 /* Peppy_VibesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF06132C943A0500970ED9 /* Peppy_VibesUITests.swift */; };
+		8EEF06162C943A0500970ED9 /* Peppy_VibesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF06152C943A0500970ED9 /* Peppy_VibesUITestsLaunchTests.swift */; };
+		8EEF06232C943A8700970ED9 /* ClothingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF06222C943A8700970ED9 /* ClothingListView.swift */; };
+		8EEF06252C943CC000970ED9 /* ClothingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF06242C943CC000970ED9 /* ClothingItemView.swift */; };
+		8EEF06272C9490D900970ED9 /* AddClothingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF06262C9490D900970ED9 /* AddClothingItemView.swift */; };
+		8EEF06292C94A0C700970ED9 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF06282C94A0C700970ED9 /* ImagePickerView.swift */; };
+		8EEF062B2C95704C00970ED9 /* ShakeDetectingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF062A2C95704C00970ED9 /* ShakeDetectingViewController.swift */; };
+		8EEF062D2C95708F00970ED9 /* ShakeDetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF062C2C95708F00970ED9 /* ShakeDetectorView.swift */; };
+		8EEF062F2C97101A00970ED9 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF062E2C97101A00970ED9 /* CameraManager.swift */; };
+		8EEF06312C971B1100970ED9 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF06302C971B1100970ED9 /* CameraView.swift */; };
+		8EEF06332C971BFB00970ED9 /* ImageSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF06322C971BFB00970ED9 /* ImageSearchView.swift */; };
+		8EEF06382C98860600970ED9 /* ClothingImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF06372C98860600970ED9 /* ClothingImageClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EEF06062C943A0500970ED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EEF05E82C943A0100970ED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EEF05EF2C943A0100970ED9;
+			remoteInfo = "Peppy Vibes";
+		};
+		8EEF06102C943A0500970ED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EEF05E82C943A0100970ED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EEF05EF2C943A0100970ED9;
+			remoteInfo = "Peppy Vibes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EEF05F02C943A0100970ED9 /* Peppy Vibes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peppy Vibes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF05F32C943A0100970ED9 /* Peppy_VibesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peppy_VibesApp.swift; sourceTree = "<group>"; };
+		8EEF05F52C943A0100970ED9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EEF05F72C943A0500970ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EEF05FA2C943A0500970ED9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EEF05FC2C943A0500970ED9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8EEF05FF2C943A0500970ED9 /* Peppy_Vibes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Peppy_Vibes.xcdatamodel; sourceTree = "<group>"; };
+		8EEF06052C943A0500970ED9 /* Peppy VibesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Peppy VibesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF06092C943A0500970ED9 /* Peppy_VibesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peppy_VibesTests.swift; sourceTree = "<group>"; };
+		8EEF060F2C943A0500970ED9 /* Peppy VibesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Peppy VibesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF06132C943A0500970ED9 /* Peppy_VibesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peppy_VibesUITests.swift; sourceTree = "<group>"; };
+		8EEF06152C943A0500970ED9 /* Peppy_VibesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peppy_VibesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EEF06222C943A8700970ED9 /* ClothingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingListView.swift; sourceTree = "<group>"; };
+		8EEF06242C943CC000970ED9 /* ClothingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingItemView.swift; sourceTree = "<group>"; };
+		8EEF06262C9490D900970ED9 /* AddClothingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClothingItemView.swift; sourceTree = "<group>"; };
+		8EEF06282C94A0C700970ED9 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		8EEF062A2C95704C00970ED9 /* ShakeDetectingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeDetectingViewController.swift; sourceTree = "<group>"; };
+		8EEF062C2C95708F00970ED9 /* ShakeDetectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeDetectorView.swift; sourceTree = "<group>"; };
+		8EEF062E2C97101A00970ED9 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		8EEF06302C971B1100970ED9 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		8EEF06322C971BFB00970ED9 /* ImageSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchView.swift; sourceTree = "<group>"; };
+		8EEF06372C98860600970ED9 /* ClothingImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ClothingImageClassifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EEF05ED2C943A0100970ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF06022C943A0500970ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF060C2C943A0500970ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EEF05E72C943A0100970ED9 = {
+			isa = PBXGroup;
+			children = (
+				8EEF05F22C943A0100970ED9 /* Peppy Vibes */,
+				8EEF06082C943A0500970ED9 /* Peppy VibesTests */,
+				8EEF06122C943A0500970ED9 /* Peppy VibesUITests */,
+				8EEF05F12C943A0100970ED9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EEF05F12C943A0100970ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF05F02C943A0100970ED9 /* Peppy Vibes.app */,
+				8EEF06052C943A0500970ED9 /* Peppy VibesTests.xctest */,
+				8EEF060F2C943A0500970ED9 /* Peppy VibesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EEF05F22C943A0100970ED9 /* Peppy Vibes */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF05F32C943A0100970ED9 /* Peppy_VibesApp.swift */,
+				8EEF05F52C943A0100970ED9 /* ContentView.swift */,
+				8EEF05F72C943A0500970ED9 /* Assets.xcassets */,
+				8EEF05FC2C943A0500970ED9 /* Persistence.swift */,
+				8EEF05FE2C943A0500970ED9 /* Peppy_Vibes.xcdatamodeld */,
+				8EEF06222C943A8700970ED9 /* ClothingListView.swift */,
+				8EEF06302C971B1100970ED9 /* CameraView.swift */,
+				8EEF06322C971BFB00970ED9 /* ImageSearchView.swift */,
+				8EEF062A2C95704C00970ED9 /* ShakeDetectingViewController.swift */,
+				8EEF062C2C95708F00970ED9 /* ShakeDetectorView.swift */,
+				8EEF06262C9490D900970ED9 /* AddClothingItemView.swift */,
+				8EEF06282C94A0C700970ED9 /* ImagePickerView.swift */,
+				8EEF06242C943CC000970ED9 /* ClothingItemView.swift */,
+				8EEF062E2C97101A00970ED9 /* CameraManager.swift */,
+				8EEF06372C98860600970ED9 /* ClothingImageClassifier.mlmodel */,
+				8EEF05F92C943A0500970ED9 /* Preview Content */,
+			);
+			path = "Peppy Vibes";
+			sourceTree = "<group>";
+		};
+		8EEF05F92C943A0500970ED9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF05FA2C943A0500970ED9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EEF06082C943A0500970ED9 /* Peppy VibesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF06092C943A0500970ED9 /* Peppy_VibesTests.swift */,
+			);
+			path = "Peppy VibesTests";
+			sourceTree = "<group>";
+		};
+		8EEF06122C943A0500970ED9 /* Peppy VibesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF06132C943A0500970ED9 /* Peppy_VibesUITests.swift */,
+				8EEF06152C943A0500970ED9 /* Peppy_VibesUITestsLaunchTests.swift */,
+			);
+			path = "Peppy VibesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EEF05EF2C943A0100970ED9 /* Peppy Vibes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF06192C943A0500970ED9 /* Build configuration list for PBXNativeTarget "Peppy Vibes" */;
+			buildPhases = (
+				8EEF05EC2C943A0100970ED9 /* Sources */,
+				8EEF05ED2C943A0100970ED9 /* Frameworks */,
+				8EEF05EE2C943A0100970ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Peppy Vibes";
+			productName = "Peppy Vibes";
+			productReference = 8EEF05F02C943A0100970ED9 /* Peppy Vibes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EEF06042C943A0500970ED9 /* Peppy VibesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF061C2C943A0500970ED9 /* Build configuration list for PBXNativeTarget "Peppy VibesTests" */;
+			buildPhases = (
+				8EEF06012C943A0500970ED9 /* Sources */,
+				8EEF06022C943A0500970ED9 /* Frameworks */,
+				8EEF06032C943A0500970ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EEF06072C943A0500970ED9 /* PBXTargetDependency */,
+			);
+			name = "Peppy VibesTests";
+			productName = "Peppy VibesTests";
+			productReference = 8EEF06052C943A0500970ED9 /* Peppy VibesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EEF060E2C943A0500970ED9 /* Peppy VibesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF061F2C943A0500970ED9 /* Build configuration list for PBXNativeTarget "Peppy VibesUITests" */;
+			buildPhases = (
+				8EEF060B2C943A0500970ED9 /* Sources */,
+				8EEF060C2C943A0500970ED9 /* Frameworks */,
+				8EEF060D2C943A0500970ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EEF06112C943A0500970ED9 /* PBXTargetDependency */,
+			);
+			name = "Peppy VibesUITests";
+			productName = "Peppy VibesUITests";
+			productReference = 8EEF060F2C943A0500970ED9 /* Peppy VibesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EEF05E82C943A0100970ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8EEF05EF2C943A0100970ED9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8EEF06042C943A0500970ED9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8EEF05EF2C943A0100970ED9;
+					};
+					8EEF060E2C943A0500970ED9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8EEF05EF2C943A0100970ED9;
+					};
+				};
+			};
+			buildConfigurationList = 8EEF05EB2C943A0100970ED9 /* Build configuration list for PBXProject "Peppy Vibes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EEF05E72C943A0100970ED9;
+			productRefGroup = 8EEF05F12C943A0100970ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EEF05EF2C943A0100970ED9 /* Peppy Vibes */,
+				8EEF06042C943A0500970ED9 /* Peppy VibesTests */,
+				8EEF060E2C943A0500970ED9 /* Peppy VibesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EEF05EE2C943A0100970ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF05FB2C943A0500970ED9 /* Preview Assets.xcassets in Resources */,
+				8EEF05F82C943A0500970ED9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF06032C943A0500970ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF060D2C943A0500970ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EEF05EC2C943A0100970ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF06332C971BFB00970ED9 /* ImageSearchView.swift in Sources */,
+				8EEF06232C943A8700970ED9 /* ClothingListView.swift in Sources */,
+				8EEF05FD2C943A0500970ED9 /* Persistence.swift in Sources */,
+				8EEF05F62C943A0100970ED9 /* ContentView.swift in Sources */,
+				8EEF06312C971B1100970ED9 /* CameraView.swift in Sources */,
+				8EEF062D2C95708F00970ED9 /* ShakeDetectorView.swift in Sources */,
+				8EEF06252C943CC000970ED9 /* ClothingItemView.swift in Sources */,
+				8EEF06382C98860600970ED9 /* ClothingImageClassifier.mlmodel in Sources */,
+				8EEF062B2C95704C00970ED9 /* ShakeDetectingViewController.swift in Sources */,
+				8EEF06292C94A0C700970ED9 /* ImagePickerView.swift in Sources */,
+				8EEF06002C943A0500970ED9 /* Peppy_Vibes.xcdatamodeld in Sources */,
+				8EEF05F42C943A0100970ED9 /* Peppy_VibesApp.swift in Sources */,
+				8EEF06272C9490D900970ED9 /* AddClothingItemView.swift in Sources */,
+				8EEF062F2C97101A00970ED9 /* CameraManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF06012C943A0500970ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF060A2C943A0500970ED9 /* Peppy_VibesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF060B2C943A0500970ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF06142C943A0500970ED9 /* Peppy_VibesUITests.swift in Sources */,
+				8EEF06162C943A0500970ED9 /* Peppy_VibesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EEF06072C943A0500970ED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EEF05EF2C943A0100970ED9 /* Peppy Vibes */;
+			targetProxy = 8EEF06062C943A0500970ED9 /* PBXContainerItemProxy */;
+		};
+		8EEF06112C943A0500970ED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EEF05EF2C943A0100970ED9 /* Peppy Vibes */;
+			targetProxy = 8EEF06102C943A0500970ED9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EEF06172C943A0500970ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EEF06182C943A0500970ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EEF061A2C943A0500970ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Peppy Vibes/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ST389W47Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To search relevant products in the store";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aurax.Peppy-Vibes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EEF061B2C943A0500970ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Peppy Vibes/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ST389W47Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To search relevant products in the store";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aurax.Peppy-Vibes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EEF061D2C943A0500970ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ST389W47Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aurax.Peppy-VibesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Peppy Vibes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Peppy Vibes";
+			};
+			name = Debug;
+		};
+		8EEF061E2C943A0500970ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ST389W47Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aurax.Peppy-VibesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Peppy Vibes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Peppy Vibes";
+			};
+			name = Release;
+		};
+		8EEF06202C943A0500970ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ST389W47Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aurax.Peppy-VibesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Peppy Vibes";
+			};
+			name = Debug;
+		};
+		8EEF06212C943A0500970ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ST389W47Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aurax.Peppy-VibesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Peppy Vibes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EEF05EB2C943A0100970ED9 /* Build configuration list for PBXProject "Peppy Vibes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF06172C943A0500970ED9 /* Debug */,
+				8EEF06182C943A0500970ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF06192C943A0500970ED9 /* Build configuration list for PBXNativeTarget "Peppy Vibes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF061A2C943A0500970ED9 /* Debug */,
+				8EEF061B2C943A0500970ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF061C2C943A0500970ED9 /* Build configuration list for PBXNativeTarget "Peppy VibesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF061D2C943A0500970ED9 /* Debug */,
+				8EEF061E2C943A0500970ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF061F2C943A0500970ED9 /* Build configuration list for PBXNativeTarget "Peppy VibesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF06202C943A0500970ED9 /* Debug */,
+				8EEF06212C943A0500970ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EEF05FE2C943A0500970ED9 /* Peppy_Vibes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EEF05FF2C943A0500970ED9 /* Peppy_Vibes.xcdatamodel */,
+			);
+			currentVersion = 8EEF05FF2C943A0500970ED9 /* Peppy_Vibes.xcdatamodel */;
+			path = Peppy_Vibes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EEF05E82C943A0100970ED9 /* Project object */;
+}
