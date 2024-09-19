@@ -9,12 +9,15 @@ import SwiftUI
 import CoreML
 import Vision
 import UIKit
+import CoreData
 
 struct ImageSearchView: View {
     @State private var selectedImage: UIImage? = nil
     @State private var showCamera = false
     @State private var classificationResult: String = ""
     @State private var sourceType: UIImagePickerController.SourceType = .photoLibrary
+    @Environment(\.managedObjectContext) private var viewContext
+    @FetchRequest(entity: ClothingItem.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \ClothingItem.name, ascending: true)]) var items: FetchedResults<ClothingItem>
 
     let imageWidth = UIScreen.main.bounds.width
     let columns = [
@@ -30,12 +33,12 @@ struct ImageSearchView: View {
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(10)
-                        .frame(width: imageWidth, height: 200)
+                        .frame(width: imageWidth, height: 300)
                         .clipped()
                 } else {
                     Rectangle()
                         .fill(Color.gray.opacity(0.5))
-                        .frame(width: imageWidth, height: 200)
+                        .frame(width: imageWidth, height: 300)
                         .cornerRadius(10)
                         .overlay(
                             Text("Select an Image")
@@ -81,14 +84,11 @@ struct ImageSearchView: View {
                     .font(.headline)
                     .padding()
             }
-            
-            Spacer()
-            
+        
             ScrollView {
                 LazyVGrid(columns: columns, content: {
-                    ForEach(["1","2","3"], id: \.self) { item in
-                        //                    ClothingItemView(item: item)
-                        Text(item)
+                    ForEach(filteredItems, id: \.self) { item in
+                        ClothingItemView(item: item)
                     }
                 })
                 .padding()
@@ -96,13 +96,17 @@ struct ImageSearchView: View {
             .navigationTitle("All Products")
         }
         .sheet(isPresented: $showCamera, content: {
-            ImagePickerView(image: $selectedImage, sourceType: .photoLibrary)
+            ImagePickerView(image: $selectedImage, sourceType: sourceType)
                 .onDisappear {
                     if let image = selectedImage {
                         classificationResult = classifyImage(image)
                     }
                 }
         })
+    }
+    
+    var filteredItems: [ClothingItem] {
+        items.filter({ $0.name?.isEmpty == false })
     }
 }
 
