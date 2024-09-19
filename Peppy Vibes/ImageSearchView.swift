@@ -14,36 +14,92 @@ struct ImageSearchView: View {
     @State private var selectedImage: UIImage? = nil
     @State private var showCamera = false
     @State private var classificationResult: String = ""
+    @State private var sourceType: UIImagePickerController.SourceType = .photoLibrary
+
+    let imageWidth = UIScreen.main.bounds.width
+    let columns = [
+            GridItem(.flexible()),
+            GridItem(.flexible())
+        ]
     
     var body: some View {
-        VStack(content: {
-            if let image = selectedImage {
-                Image(uiImage: image)
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 200, height: 200)
-            } else {
-                Rectangle()
-                    .fill(Color.gray)
-                    .frame(width: 200, height: 200, alignment: .center)
+        VStack {
+            ZStack {
+                if let image = selectedImage {
+                    Image(uiImage: image)
+                        .resizable()
+                        .scaledToFill()
+                        .cornerRadius(10)
+                        .frame(width: imageWidth, height: 200)
+                        .clipped()
+                } else {
+                    Rectangle()
+                        .fill(Color.gray.opacity(0.5))
+                        .frame(width: imageWidth, height: 200)
+                        .cornerRadius(10)
+                        .overlay(
+                            Text("Select an Image")
+                                .foregroundColor(.white)
+                        )
+                }
+                
+                VStack {
+                    Spacer()
+                    HStack {
+                        Spacer()
+                        VStack {
+                            Button {
+                                sourceType = .camera
+                                showCamera = true
+                            } label: {
+                                Image(systemName: "camera.fill")
+                                    .foregroundColor(.white)
+                                    .padding()
+                                    .background(Color.blue)
+                                    .clipShape(Circle())
+                            }
+                            .disabled(!UIImagePickerController.isSourceTypeAvailable(.camera))
+                            
+                            Button {
+                                sourceType = .photoLibrary
+                                showCamera = true
+                            } label: {
+                                Image(systemName: "photo.on.rectangle")
+                                    .foregroundColor(.white)
+                                    .padding()
+                                    .background(Color.blue)
+                                    .clipShape(Circle())
+                            }
+                        }
+                        .padding()
+                    }
+                }
             }
-            
-            Button("Open Camera") {
-                showCamera = true
-            }
-            .padding()
             
             if !classificationResult.isEmpty {
                 Text("Result: \(classificationResult)")
                     .font(.headline)
                     .padding()
             }
-        })
+            
+            Spacer()
+            
+            ScrollView {
+                LazyVGrid(columns: columns, content: {
+                    ForEach(["1","2","3"], id: \.self) { item in
+                        //                    ClothingItemView(item: item)
+                        Text(item)
+                    }
+                })
+                .padding()
+            }
+            .navigationTitle("All Products")
+        }
         .sheet(isPresented: $showCamera, content: {
-            CameraView(image: $selectedImage)
+            ImagePickerView(image: $selectedImage, sourceType: .photoLibrary)
                 .onDisappear {
                     if let image = selectedImage {
-                        classifyImage(image)
+                        classificationResult = classifyImage(image)
                     }
                 }
         })
@@ -61,11 +117,6 @@ func classifyImage(_ image: UIImage) -> String {
     let pixelBuffer = image
         .resized(to: .init(width: modelSize, height: modelSize))
         .toCVPixelBuffer()
-    
-    // Convert to CVPixelBuffer
-    
-    
-    CVPixelBufferUnlockBaseAddress(pixelBuffer!, CVPixelBufferLockFlags(rawValue: 0))
     
     let classifierModel = try? ClothingImageClassifier(configuration: .init())
     do {

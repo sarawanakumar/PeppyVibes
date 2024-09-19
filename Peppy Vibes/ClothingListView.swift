@@ -73,10 +73,6 @@ struct ClothingListView: View {
                     .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
             })
         })
-        .onAppear(perform: {
-            let className = classifyImage(UIImage(named: "Blue_Frog_Women")!)
-            print("class identified \(className)")
-        })
     }
     
     var filteredItems: [ClothingItem] {
