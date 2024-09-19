@@ -22,6 +22,7 @@ struct ImageSearchView: View {
     let imageWidth = UIScreen.main.bounds.width
     let columns = [
             GridItem(.flexible()),
+            GridItem(.flexible()),
             GridItem(.flexible())
         ]
     
@@ -32,14 +33,14 @@ struct ImageSearchView: View {
                     Image(uiImage: image)
                         .resizable()
                         .scaledToFill()
-                        .cornerRadius(10)
+                        .ignoresSafeArea(SafeAreaRegions.container, edges: .top)
                         .frame(width: imageWidth, height: 300)
-                        .clipped()
+                        
                 } else {
                     Rectangle()
                         .fill(Color.gray.opacity(0.5))
                         .frame(width: imageWidth, height: 300)
-                        .cornerRadius(10)
+                        .ignoresSafeArea(.container, edges: .top)
                         .overlay(
                             Text("Select an Image")
                                 .foregroundColor(.white)
@@ -91,9 +92,9 @@ struct ImageSearchView: View {
                         ClothingItemView(item: item)
                     }
                 })
-                .padding()
             }
-            .navigationTitle("All Products")
+            .navigationBarTitleDisplayMode(.inline)
+            Spacer()
         }
         .sheet(isPresented: $showCamera, content: {
             ImagePickerView(image: $selectedImage, sourceType: sourceType)

@@ -57,7 +57,6 @@ struct ClothingListView: View {
                             ClothingItemView(item: item)
                         }
                     })
-                    .padding()
                 }
                 .navigationTitle("All Products")
             }

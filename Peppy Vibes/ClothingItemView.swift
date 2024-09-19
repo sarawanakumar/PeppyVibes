@@ -16,13 +16,15 @@ struct ClothingItemView: View {
                let uiImage = UIImage(data: imageData) {
                 Image(uiImage: uiImage)
                     .resizable()
-                    .scaledToFit()
-                    .frame(width: 100, height: 100)
+                    .scaledToFill()
+                    .frame(width: 100, height: 150)
+                    .background(Color.gray)
                     .cornerRadius(8)
+                    .clipped()
             } else {
                 Rectangle()
                     .fill(Color.gray)
-                    .frame(width: 100, height: 100)
+                    .frame(width: 100, height: 150)
                     .cornerRadius(8)
             }
             
@@ -32,14 +34,7 @@ struct ClothingItemView: View {
                 Text(String(format: "₹%.2f", item.price ?? 50))
                     .font(.subheadline)
             }
-            Spacer()
         }
-        .padding()
-        .background(Color(.systemGray6))
-        .clipShape(RoundedRectangle(cornerRadius: 8))
+        .padding(8)
     }
 }
-
-//#Preview {
-//    ClothingItemView()
-//}
