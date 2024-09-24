@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EBAD6182CA3023F00440961 /* apparel-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8EBAD6172CA3023F00440961 /* apparel-data.json */; };
+		8EBAD61A2CA3041700440961 /* ApparelDataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAD6192CA3041700440961 /* ApparelDataDecoder.swift */; };
 		8EEF05F42C943A0100970ED9 /* Peppy_VibesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF05F32C943A0100970ED9 /* Peppy_VibesApp.swift */; };
 		8EEF05F62C943A0100970ED9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF05F52C943A0100970ED9 /* ContentView.swift */; };
 		8EEF05F82C943A0500970ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF05F72C943A0500970ED9 /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8EBAD6172CA3023F00440961 /* apparel-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "apparel-data.json"; sourceTree = "<group>"; };
+		8EBAD6192CA3041700440961 /* ApparelDataDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApparelDataDecoder.swift; sourceTree = "<group>"; };
 		8EEF05F02C943A0100970ED9 /* Peppy Vibes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peppy Vibes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEF05F32C943A0100970ED9 /* Peppy_VibesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peppy_VibesApp.swift; sourceTree = "<group>"; };
 		8EEF05F52C943A0100970ED9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EBAD6162CA1932900440961 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EBAD6172CA3023F00440961 /* apparel-data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		8EEF05E72C943A0100970ED9 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +130,7 @@
 		8EEF05F22C943A0100970ED9 /* Peppy Vibes */ = {
 			isa = PBXGroup;
 			children = (
+				8EBAD6162CA1932900440961 /* Resources */,
 				8EEF05F32C943A0100970ED9 /* Peppy_VibesApp.swift */,
 				8EEF05F52C943A0100970ED9 /* ContentView.swift */,
 				8EEF05F72C943A0500970ED9 /* Assets.xcassets */,
@@ -125,6 +138,7 @@
 				8EEF05FE2C943A0500970ED9 /* Peppy_Vibes.xcdatamodeld */,
 				8EEF06222C943A8700970ED9 /* ClothingListView.swift */,
 				8EEF06302C971B1100970ED9 /* CameraView.swift */,
+				8EBAD6192CA3041700440961 /* ApparelDataDecoder.swift */,
 				8EEF06322C971BFB00970ED9 /* ImageSearchView.swift */,
 				8EEF062A2C95704C00970ED9 /* ShakeDetectingViewController.swift */,
 				8EEF062C2C95708F00970ED9 /* ShakeDetectorView.swift */,
@@ -267,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBAD6182CA3023F00440961 /* apparel-data.json in Resources */,
 				8EEF05FB2C943A0500970ED9 /* Preview Assets.xcassets in Resources */,
 				8EEF05F82C943A0500970ED9 /* Assets.xcassets in Resources */,
 			);
@@ -307,6 +322,7 @@
 				8EEF05F42C943A0100970ED9 /* Peppy_VibesApp.swift in Sources */,
 				8EEF06272C9490D900970ED9 /* AddClothingItemView.swift in Sources */,
 				8EEF062F2C97101A00970ED9 /* CameraManager.swift in Sources */,
+				8EBAD61A2CA3041700440961 /* ApparelDataDecoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

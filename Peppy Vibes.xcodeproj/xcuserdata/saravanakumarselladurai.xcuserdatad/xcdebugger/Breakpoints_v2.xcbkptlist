@@ -7,17 +7,305 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AE4F44A1-ED0E-49C5-94DB-5609B16FE94A"
+            uuid = "1763636C-02C0-46EB-B6AA-E8B50A676FF2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Peppy Vibes/ImagePickerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "makeUIViewController(context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1763636C-02C0-46EB-B6AA-E8B50A676FF2 - 895ebc883cf54d68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Peppy_Vibes.ImagePickerView.makeUIViewController(context: SwiftUI.UIViewControllerRepresentableContext&lt;Peppy_Vibes.ImagePickerView&gt;) -&gt; __C.UIImagePickerController"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ImagePickerView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "1763636C-02C0-46EB-B6AA-E8B50A676FF2 - 895ebc883cf54d68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Peppy_Vibes.ImagePickerView.makeUIViewController(context: SwiftUI.UIViewControllerRepresentableContext&lt;Peppy_Vibes.ImagePickerView&gt;) -&gt; __C.UIImagePickerController"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ImagePickerView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5DDF6BE-886E-4F5C-B499-4019FB86EC95"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Peppy Vibes/ClothingListView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "performBackgroundInsert(withData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C5DDF6BE-886E-4F5C-B499-4019FB86EC95 - d1b47628d01b5fb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObjectContext) -&gt; () in Peppy_Vibes.ClothingListView.performBackgroundInsert(withData: Peppy_Vibes.ApparelData) -&gt; ()"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ClothingListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "C5DDF6BE-886E-4F5C-B499-4019FB86EC95 - d1b47628d01b5fb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObjectContext) -&gt; () in Peppy_Vibes.ClothingListView.performBackgroundInsert(withData: Peppy_Vibes.ApparelData) -&gt; ()"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ClothingListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "748">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35FF44AB-F8E3-47A4-8887-E57EB40A277E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Peppy Vibes/ClothingListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "performBackgroundInsert(withData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "35FF44AB-F8E3-47A4-8887-E57EB40A277E - d1b47628d01b5d43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObjectContext) -&gt; () in Peppy_Vibes.ClothingListView.performBackgroundInsert(withData: Peppy_Vibes.ApparelData) -&gt; ()"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ClothingListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+               <Location
+                  uuid = "35FF44AB-F8E3-47A4-8887-E57EB40A277E - d1b47628d01b5d43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObjectContext) -&gt; () in Peppy_Vibes.ClothingListView.performBackgroundInsert(withData: Peppy_Vibes.ApparelData) -&gt; ()"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ClothingListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "1568">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77EA6ADD-43BF-4101-BACE-A37E33BE794F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Peppy Vibes/ClothingListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "performBackgroundInsert(withData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "77EA6ADD-43BF-4101-BACE-A37E33BE794F - d1b47628d01b5d20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObjectContext) -&gt; () in Peppy_Vibes.ClothingListView.performBackgroundInsert(withData: Peppy_Vibes.ApparelData) -&gt; ()"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ClothingListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1348">
+               </Location>
+               <Location
+                  uuid = "77EA6ADD-43BF-4101-BACE-A37E33BE794F - d1b47628d01b5d20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObjectContext) -&gt; () in Peppy_Vibes.ClothingListView.performBackgroundInsert(withData: Peppy_Vibes.ApparelData) -&gt; ()"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ClothingListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "503E588D-A9C0-4C96-AAD2-F208DB88A641"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Peppy Vibes/ClothingListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "filteredItems"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D87D785A-3A9B-4272-887A-52C731663CC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Peppy Vibes/ClothingListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "filteredItems"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D87D785A-3A9B-4272-887A-52C731663CC5 - ff6ea827805ab3a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Peppy_Vibes.ClothingListView.filteredItems.getter : Swift.Array&lt;Peppy_Vibes.ClothingItem&gt;"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ClothingListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "D87D785A-3A9B-4272-887A-52C731663CC5 - dcf4f7d5ddf70118"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Peppy_Vibes.ClothingItem) -&gt; Swift.Bool in Peppy_Vibes.ClothingListView.filteredItems.getter : Swift.Array&lt;Peppy_Vibes.ClothingItem&gt;"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ClothingListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C93A87F5-1B8B-4E67-921E-491B6E6F1E57"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Peppy Vibes/ClothingItemView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C93A87F5-1B8B-4E67-921E-491B6E6F1E57 - e8e0ff6a5550858c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.clipped(antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;)&gt; in Peppy_Vibes.ClothingItemView.body.getter : some"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ClothingItemView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "760">
+               </Location>
+               <Location
+                  uuid = "C93A87F5-1B8B-4E67-921E-491B6E6F1E57 - e8e0ff6a555085ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.clipped(antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;)&gt; in Peppy_Vibes.ClothingItemView.body.getter : some"
+                  moduleName = "Peppy Vibes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saravanakumarselladurai/Documents/Saravanakumar/EE/tm-sba/Tests/Peppy%20Vibes/PeppyVibes/Peppy%20Vibes/ClothingItemView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "760">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

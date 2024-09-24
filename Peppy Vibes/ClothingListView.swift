@@ -18,6 +18,7 @@ struct ClothingListView: View {
     @State private var selectedSize = "All"
     @State private var shakeDetected: Bool = false
     @State private var presentingModal: Bool = false
+    var shouldPerformInsert = false
     
     let columns = [
             GridItem(.flexible()),
@@ -62,6 +63,15 @@ struct ClothingListView: View {
             }
             .padding(8)
         }
+        .onAppear(perform: {
+            guard shouldPerformInsert else {
+                return
+            }
+            guard let data = ApparelDataDecoder.loadJson(filename: "apparel-data", as: ApparelData.self) else {
+                return
+            }
+            performBackgroundInsert(withData: data)
+        })
         .background(content: {
             ShakeDetectorView {
                 self.presentingModal = true
@@ -79,6 +89,28 @@ struct ClothingListView: View {
             (selectedSize == "All" || item.size == selectedSize) && (searchText.isEmpty || item.name?.lowercased().contains(searchText.lowercased()) == true)
         }
         return filtered
+    }
+    
+    func performBackgroundInsert(withData d: ApparelData) {
+        PersistenceController.shared.container.performBackgroundTask { context in
+            for data in d.items {
+                let clothingItemEntity = ClothingItem(context: context)
+                clothingItemEntity.name = data.name
+                clothingItemEntity.category = data.category
+                clothingItemEntity.color = data.color
+                clothingItemEntity.price = NSDecimalNumber(string: data.price)
+                clothingItemEntity.size = data.size
+                clothingItemEntity.label = data.label
+                
+                if let selectedImage = UIImage(named: data.resName) {
+//                    newItem.image = selectedImage.jpegData(compressionQuality: 0.8)
+                    clothingItemEntity.image = selectedImage.jpegData(compressionQuality: 0.8)
+                }
+                
+                try? context.save()
+            }
+            
+        }
     }
 }
 

@@ -1,0 +1,487 @@
+{
+    "items": [
+        {
+            "category": "Shirt",
+            "name": "Men's Black Solid Shirt",
+            "label": "black_shirt",
+            "price": "799.90",
+            "size": "XL",
+            "resName": "Black_mens _shirt",
+            "color": "black"
+        },
+        {
+            "category": "Pant",
+            "name": "WES Formals Solid Black Slim-Fit Mid-Rise Trousers",
+            "label": "black_pant",
+            "price": "1099.90",
+            "size": "32",
+            "resName": "Black _Pant_Men",
+            "color": "black"
+        },
+        {
+            "category": "Shoes",
+            "name": "FAUSTO Men's Formal Office Dress Lace Up Derby Shoes",
+            "label": "black_shoes",
+            "price": "1999.90",
+            "size": "11",
+            "resName": "Black_Shoes_Men",
+            "color": "black"
+        },
+        {
+            "category": "Shorts",
+            "name": "Run It Shorts",
+            "label": "black_shorts",
+            "price": "699.90",
+            "size": "32",
+            "resName": "black shorts men",
+            "color": "black"
+        },
+        {
+            "category": "Suits",
+            "name": "Elegant Gloss Black Suit Blazer",
+            "label": "black_suit",
+            "price": "3999.90",
+            "size": "L",
+            "resName": "Black_suit_Men",
+            "color": "black"
+        },
+        {
+            "category": "Shirt",
+            "name": "CONCEALED BUTTON DOWN COTTON SHIRT CAMBROC - DARK BLUE",
+            "label": "blue_shirt",
+            "price": "899.90",
+            "size": "L",
+            "resName": "Blue_Shirt_Men",
+            "color": "blue"
+        },
+        {
+            "category": "Pant",
+            "name": "Raymond Blue Structure Contemporary Fit Polyester Blend Trouser",
+            "label": "blue_pant",
+            "price": "1099.90",
+            "size": "32",
+            "resName": "blp1",
+            "color": "blue"
+        },
+        {
+            "category": "Shoes",
+            "name": "Dark Blue Premium Wholecut Oxford",
+            "label": "blue_shoes",
+            "price": "1999.90",
+            "size": "11",
+            "resName": "Blue_Shoes_Men",
+            "color": "blue"
+        },
+        {
+            "category": "Shorts",
+            "name": "Men Solid Cotton Stretch Shorts",
+            "label": "blue_shorts",
+            "price": "699.90",
+            "size": "32",
+            "resName": "Blue_Shorts_Men",
+            "color": "blue"
+        },
+        {
+            "category": "Suits",
+            "name": "Tailored Regular Fit Three Piece Suit",
+            "label": "black_suit",
+            "price": "3999.90",
+            "size": "L",
+            "resName": "Blue_Suit_Men",
+            "color": "blue"
+        },
+        {
+            "category": "Shirt",
+            "name": "Brown Cotton Polo Shirt Full Sleeve",
+            "label": "brown_shirt",
+            "price": "800.90",
+            "size": "XL",
+            "resName": "Brown_Shirt_Men",
+            "color": "brown"
+        },
+        {
+            "category": "Pant",
+            "name": "Slim Comfort B-95 Casual Brown Solid Khakis - Marico",
+            "label": "brown_pant",
+            "price": "3999.90",
+            "size": "34",
+            "resName": "Brown_pant_Men",
+            "color": "brown"
+        },
+        {
+            "category": "Shorts",
+            "name": "Beige Cotton Regular Shorts",
+            "label": "brown_short",
+            "price": "899.90",
+            "size": "34",
+            "resName": "Brown_Short_Men",
+            "color": "brown"
+        },
+        {
+            "category": "Shoes",
+            "name": "Tan Premium Plain Oxford",
+            "label": "brown_shoes",
+            "price": "3999.90",
+            "size": "10",
+            "resName": "Brown_Shoes_Men",
+            "color": "brown"
+        },
+        {
+            "category": "Suits",
+            "name": "Elite Brown Slim Fit Three piece Suit",
+            "label": "brown_suit",
+            "price": "3999.90",
+            "size": "L",
+            "resName": "Brown_Suit_Men",
+            "color": "brown"
+        },
+        
+        {
+            "category": "Shirt",
+            "name": "Park Avenue Red Solid Slim Fit Polyester Blend Formal Shirt",
+            "label": "Red_Shirt",
+            "price": "800.90",
+            "size": "L",
+            "resName": "Red_Shirt_Men",
+            "color": "Red"
+        },
+        {
+            "category": "Pant",
+            "name": "Maroon Classic Chinos Trousers",
+            "label": "red_Pant",
+            "price": "2000.90",
+            "size": "36",
+            "resName": "Red_Pant_Men",
+            "color": "Red"
+        },
+        {
+            "category": "Shoes",
+            "name": "Red Wingtip Derby",
+            "label": "red_Shoes",
+            "price": "2500.90",
+            "size": "9",
+            "resName": "Red_shoes_Men",
+            "color": "Red"
+        },
+        {
+            "category": "Shorts",
+            "name": "Allen Solly Men's Chino Shorts",
+            "label": "red_shorts",
+            "price": "899.90",
+            "size": "34",
+            "resName": "Red_Shorts_Men",
+            "color": "Red"
+        },
+        
+        {
+            "category": "Suit",
+            "name": "FAVOROSKI Designer Men's Slim Fit Notched Lapel Single Breasted Solid Blazer",
+            "label": "red_suit",
+            "price": "3999.90",
+            "size": "L",
+            "resName": "Red_Suit_Men",
+            "color": "Red"
+        },
+        {
+            "category": "Shirt",
+            "name": "Men White Regular Fit Structure Cotton Full Sleeve Shirts",
+            "label": "white_shirt",
+            "price": "899.90",
+            "size": "L",
+            "resName": "White_Shirt_Men",
+            "color": "White"
+        },
+        {
+            "category": "Pant",
+            "name": "men's white straight tapered jeans",
+            "label": "white_pant",
+            "price": "2300.90",
+            "size": "36",
+            "resName": "White_Pant_Men",
+            "color": "White"
+        },
+        {
+            "category": "Shoes",
+            "name": "Sparkling White Brogue",
+            "label": "white_shoes",
+            "price": "2500.90",
+            "size": "9",
+            "resName": "White_Shoes_Men",
+            "color": "White"
+        },
+        
+        {
+            "category": "Shorts",
+            "name": "Linen Casual White Solid Shorts - Kin",
+            "label": "white_shorts",
+            "price": "899.90",
+            "size": "34",
+            "resName": "White_Shorts_Men",
+            "color": "white"
+        },
+        {
+            "category": "Suit",
+            "name": "White Slim Fit Blazer",
+            "label": "white_suit",
+            "price": "3999.90",
+            "size": "L",
+            "resName": "White_Suit_Men",
+            "color": "white"
+        },
+        {
+            "category": "Shirt",
+            "name": "Mustard Dobby Slim Fit Casual Shirt",
+            "label": "yellow_shirt",
+            "price": "899.90",
+            "size": "L",
+            "resName": "Yellow_shirt_Men",
+            "color": "Yellow"
+        },
+        {
+            "category": "Pant",
+            "name": "Yellow Ochre Regular Fit Men’s Casual Cotton Trousers",
+            "label": "yellow_pant",
+            "price": "2350.90",
+            "size": "36",
+            "resName": "Yellow_Pant_Men",
+            "color": "Yellow"
+        },
+        {
+            "category": "Shoes",
+            "name": "Yellow Captoe Oxfords",
+            "label": "yellow_shoes",
+            "price": "2500.90",
+            "size": "8",
+            "resName": "Yellow_shoes_Men",
+            "color": "Yellow"
+        },
+        
+        {
+            "category": "Shorts",
+            "name": "Adicolor Classics Sprinter Shorts",
+            "label": "yellow_shorts",
+            "price": "899.90",
+            "size": "34",
+            "resName": "Yellow_Shorts_Men",
+            "color": "yellow"
+        },
+        {
+            "category": "Suit",
+            "name": "Yellow skinny fit blazer",
+            "label": "yellow_suit",
+            "price": "3999.90",
+            "size": "L",
+            "resName": "Yellow_Suit_Men",
+            "color": "Yellow"
+        },
+        {
+            "category": "Shirt",
+            "name": "BLUEBIRD WOMEN'S BLACK FORMAL SHIRT",
+            "label": "black_shirt",
+            "price": "900.90",
+            "size": "M",
+            "resName": "black shirt women",
+            "color": "Black"
+        },
+        {
+            "category": "Pant",
+            "name": "Women Black Formal Pants",
+            "label": "black_pant",
+            "price": "1700.90",
+            "size": "36",
+            "resName": "Black women pant",
+            "color": "Black"
+        },
+        {
+            "category": "Shoes",
+            "name": "Women Black Formal Ballerinas",
+            "label": "black_shoes",
+            "price": "2800.90",
+            "size": "8",
+            "resName": "black shoes women",
+            "color": "Black"
+        },
+        
+        {
+            "category": "Suit",
+            "name": "Regular Fit Stretch Notch collar blazer-Black",
+            "label": "black_suit",
+            "price": "899.90",
+            "size": "34",
+            "resName": "Black_suit_women",
+            "color": "Black"
+        },
+        {
+            "category": "Dress",
+            "name": "Athena Women Black Fit & Flare, One Piece Midi Dress",
+            "label": "black_dress",
+            "price": "4000.90",
+            "size": "XL",
+            "resName": "Black girls frog",
+            "color": "Black"
+        },
+        {
+            "category": "Dress",
+            "name": "Collared Pleated Fit and Flare Dress - Royal Blue",
+            "label": "blue_dress",
+            "price": "1700.90",
+            "size": "XL",
+            "resName": "Blue_Frog_Women",
+            "color": "Blue"
+        },
+        {
+            "category": "Suit",
+            "name": "Linen Co-ord Set - Navy",
+            "label": "blue_suit",
+            "price": "899.90",
+            "size": "34",
+            "resName": "Blue_Suit_Women",
+            "color": "Blue"
+        },
+        {
+            "category": "Shoes",
+            "name": "Flat N Heels Women's Blue Ankle Strap Sandals",
+            "label": "blue_shoes",
+            "price": "3000.90",
+            "size": "8",
+            "resName": "Brown_Shoes_women",
+            "color": "Blue"
+        },
+        {
+            "category": "Frog",
+            "name": "Brown Button Detail Maxi Dress with Self Tie Belt",
+            "label": "brown_frog",
+            "price": "1800.90",
+            "size": "XL",
+            "resName": "Brown_Frog_Women",
+            "color": "Brown"
+        },
+        {
+            "category": "Dress",
+            "name": "Maroon Embroidery Silk Straight Kurta With Pant And Dupatta",
+            "label": "brown_dress",
+            "price": "4000.90",
+            "size": "L",
+            "resName": "Brown_Salwar_Women",
+            "color": "Brown"
+        },
+        {
+            "category": "Shoes",
+            "name": "Cross Strap Tan Sandals"      ,
+            "label": "brown_shoes",
+            "price": "3000.90",
+            "size": "8",
+            "resName": "Brown_Shoes_women",
+            "color": "Brown"
+        },
+        {
+            "category": "Dress",
+            "name": "Green Cotton Schiffli Button Down Midi Dress",
+            "label": "green_dress",
+            "price": "5000.90",
+            "size": "XL",
+            "resName": "Green_Frog_Women",
+            "color": "Green"
+        },
+        {
+            "category": "Dress",
+            "name": "Bunaai Emerald Green Georgette Suit Set",
+            "label": "green_dress",
+            "price": "3790.90",
+            "size": "XL",
+            "resName": "Green_Salwar_women",
+            "color": "Green"
+        },
+        {
+            "category": "Shoes",
+            "name": "CWomen Pointed-Toe Chunky Heeled Shoes with Metal Accent"      ,
+            "label": "green_shoes",
+            "price": "4000.90",
+            "size": "7",
+            "resName": "Green_shoes_Women",
+            "color": "Green"
+        },
+        
+        {
+            "category": "Dress",
+            "name": "Cranberry Crinkled Shirt Maxi Dress",
+            "label": "red_dress",
+            "price": "1600.90",
+            "size": "XL",
+            "resName": "Red_frog_women",
+            "color": "Red"
+        },
+        {
+            "category": "Dress",
+            "name": "Maroon Silk Blend Embroidered Straight Kurta Pants with Dupatta",
+            "label": "red_dress",
+            "price": "1800.90",
+            "size": "L",
+            "resName": "Red_Salwar_Women",
+            "color": "Red"
+        },
+        {
+            "category": "Shoes",
+            "name": "Luna Blu by Westside Red Slingback kitten shoes"      ,
+            "label": "red_shoes",
+            "price": "3600.90",
+            "size": "7",
+            "resName": "Red_shoes_Men",
+            "color": "Red"
+        },
+        {
+            "category": "Dress",
+            "name": "White Net Gown Embellished with Floral Threadwork Embroidery",
+            "label": "white_dress",
+            "price": "3900.90",
+            "size": "XL",
+            "resName": "White_frog_women",
+            "color": "White"
+        },
+        {
+            "category": "Dress",
+            "name": "Newest white cotton kurti set",
+            "label": "white_dress",
+            "price": "1800.90",
+            "size": "L",
+            "resName": "White_Salwar_women",
+            "color": "White"
+        },
+        {
+            "category": "Shoes",
+            "name": "Women white casual pumps"      ,
+            "label": "white_shoes",
+            "price": "3600.90",
+            "size": "7",
+            "resName": "White_shoes_Women",
+            "color": "White"
+        },
+        {
+            "category": "Dress",
+            "name": "Heavy Mustard Yellow Gown Designs",
+            "label": "yellow_dress",
+            "price": "2500.90",
+            "size": "XL",
+            "resName": "yellow_gown_women",
+            "color": "Yellow"
+        },
+        {
+            "category": "Dress",
+            "name": "Rangnavi Women Rayon Anarkali Embroidered Printed Kurta Pant and Dupatta Set",
+            "label": "yellow_dress",
+            "price": "3000.90",
+            "size": "L",
+            "resName": "Yellow_Salwar_Women",
+            "color": "Yellow"
+        },
+        {
+            "category": "Shoes",
+            "name": "Women Yellow Casual Loafers"      ,
+            "label": "yellow_shoes",
+            "price": "3600.90",
+            "size": "7",
+            "resName": "yellow_shoes_women",
+            "color": "Yellow"
+        }
+    ]
+}

@@ -31,7 +31,8 @@ struct ClothingItemView: View {
             VStack(alignment: .leading) {
                 Text(item.name ?? "Unknown")
                     .font(.headline)
-                Text(String(format: "₹%.2f", item.price ?? 50))
+//                Text(String(format: "₹%.2f", item.price ?? 50))
+                Text(String(format: "₹%@", item.price ?? 50))
                     .font(.subheadline)
             }
         }
