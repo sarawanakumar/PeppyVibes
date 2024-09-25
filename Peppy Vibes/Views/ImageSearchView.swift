@@ -107,7 +107,9 @@ struct ImageSearchView: View {
     }
     
     var filteredItems: [ClothingItem] {
-        items.filter({ $0.name?.isEmpty == false })
+        items.filter {
+            self.classificationResult.isEmpty ? true : $0.label == self.classificationResult
+        }
     }
 }
 

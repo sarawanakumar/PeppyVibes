@@ -107,6 +107,39 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		8EBAD61B2CA46C4100440961 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF06372C98860600970ED9 /* ClothingImageClassifier.mlmodel */,
+				8EEF06222C943A8700970ED9 /* ClothingListView.swift */,
+				8EEF06322C971BFB00970ED9 /* ImageSearchView.swift */,
+				8EEF06282C94A0C700970ED9 /* ImagePickerView.swift */,
+				8EEF06242C943CC000970ED9 /* ClothingItemView.swift */,
+				8EEF06262C9490D900970ED9 /* AddClothingItemView.swift */,
+				8EEF06302C971B1100970ED9 /* CameraView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EBAD61C2CA46C5400440961 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8EBAD6192CA3041700440961 /* ApparelDataDecoder.swift */,
+				8EEF05FC2C943A0500970ED9 /* Persistence.swift */,
+				8EEF062E2C97101A00970ED9 /* CameraManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8EBAD61D2CA46C7D00440961 /* Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF062A2C95704C00970ED9 /* ShakeDetectingViewController.swift */,
+				8EEF062C2C95708F00970ED9 /* ShakeDetectorView.swift */,
+			);
+			path = Experiment;
+			sourceTree = "<group>";
+		};
 		8EEF05E72C943A0100970ED9 = {
 			isa = PBXGroup;
 			children = (
@@ -130,23 +163,14 @@
 		8EEF05F22C943A0100970ED9 /* Peppy Vibes */ = {
 			isa = PBXGroup;
 			children = (
+				8EBAD61D2CA46C7D00440961 /* Experiment */,
+				8EBAD61C2CA46C5400440961 /* Helper */,
+				8EBAD61B2CA46C4100440961 /* Views */,
 				8EBAD6162CA1932900440961 /* Resources */,
 				8EEF05F32C943A0100970ED9 /* Peppy_VibesApp.swift */,
 				8EEF05F52C943A0100970ED9 /* ContentView.swift */,
 				8EEF05F72C943A0500970ED9 /* Assets.xcassets */,
-				8EEF05FC2C943A0500970ED9 /* Persistence.swift */,
 				8EEF05FE2C943A0500970ED9 /* Peppy_Vibes.xcdatamodeld */,
-				8EEF06222C943A8700970ED9 /* ClothingListView.swift */,
-				8EEF06302C971B1100970ED9 /* CameraView.swift */,
-				8EBAD6192CA3041700440961 /* ApparelDataDecoder.swift */,
-				8EEF06322C971BFB00970ED9 /* ImageSearchView.swift */,
-				8EEF062A2C95704C00970ED9 /* ShakeDetectingViewController.swift */,
-				8EEF062C2C95708F00970ED9 /* ShakeDetectorView.swift */,
-				8EEF06262C9490D900970ED9 /* AddClothingItemView.swift */,
-				8EEF06282C94A0C700970ED9 /* ImagePickerView.swift */,
-				8EEF06242C943CC000970ED9 /* ClothingItemView.swift */,
-				8EEF062E2C97101A00970ED9 /* CameraManager.swift */,
-				8EEF06372C98860600970ED9 /* ClothingImageClassifier.mlmodel */,
 				8EEF05F92C943A0500970ED9 /* Preview Content */,
 			);
 			path = "Peppy Vibes";

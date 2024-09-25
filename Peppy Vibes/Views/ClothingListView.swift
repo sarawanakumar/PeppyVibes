@@ -60,18 +60,19 @@ struct ClothingListView: View {
                     })
                 }
                 .navigationTitle("All Products")
+                .toolbar {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button {
+                            self.insertStaticData()
+                        } label: {
+                            Image(systemName: "plus")
+                        }
+
+                    }
+                }
             }
             .padding(8)
         }
-        .onAppear(perform: {
-            guard shouldPerformInsert else {
-                return
-            }
-            guard let data = ApparelDataDecoder.loadJson(filename: "apparel-data", as: ApparelData.self) else {
-                return
-            }
-            performBackgroundInsert(withData: data)
-        })
         .background(content: {
             ShakeDetectorView {
                 self.presentingModal = true
@@ -82,6 +83,13 @@ struct ClothingListView: View {
                     .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
             })
         })
+    }
+    
+    private func insertStaticData() {
+        guard let data = ApparelDataDecoder.loadJson(filename: "apparel-data", as: ApparelData.self) else {
+            return
+        }
+        performBackgroundInsert(withData: data)
     }
     
     var filteredItems: [ClothingItem] {
